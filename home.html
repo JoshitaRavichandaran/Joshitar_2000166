@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        iframe{
+            margin-top: 15px;
+        }
+        .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flex-container > div {
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+}
+p{
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*body {
+  background-color:  #151719;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}*/
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: rgb(6, 6, 6);
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="flex-container">
+        <div>
+         
+             <div class="waviy">
+                <span style="--i:1">WELCOME</span>
+                <span style="--i:2">TO</span>
+                <span style="--i:3">VIRTUAL</span>
+                <span style="--i:4">CLASS</span>
+                
+             
+               </div>
+         <p>
+            A virtual classroom is an online learning environment.  The environment can be web-based and accessed through a portal or software-based and require a downloadable executable file. 
+
+Just like in a real-world classroom, a student in a virtual classroom participates in synchronous instruction, which means that the teacher and students are logged into the virtual learning environment at the same time.
+
+Many schools and businesses have rolled out virtual classrooms to provide synchonrous distance education. Virtual classroom software applications often employ multiple synchronous technologies, such as web conferencing, video conferencing, livestreaming, and web-based VoIP to provide remote students with the ability to collaborate in real time. 
+         </p>     
+</div>
+         <div>
+            
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/90JWqakYtWM" ></iframe>
+         </div>
+    
+</body>
+</html>

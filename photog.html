@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo</title>
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+        h1 {
+        text-align: center;
+        }
+        .outer-grid {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+        margin-left: 17%;
+        left:50%;
+        }
+        .inner-grid {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+        
+        left:50%;
+        }
+        .inner-grid img {
+        margin-top: 8px;
+        
+        width: 100%;
+        padding: 10px;
+        left:50%;
+        }
+        @media screen and (max-width: 800px) {
+        .inner-grid {
+        flex: 50%;
+        max-width: 50%;
+        }
+        }
+        @media screen and (max-width: 600px) {
+        .inner-grid {
+        flex: 100%;
+        max-width: 100%;
+        }
+        }
+
+        img.m1{
+            filter: opacity(120%);
+        }
+        img.m4{
+            filter: opacity(30%);
+        }
+        img.m7{
+            filter: opacity(20%);
+        }
+        img.m2{
+            filter: sepia(70%);
+        }
+        img.m5{
+            filter: sepia(40%);
+        }
+        img.m8{
+            filter: sepia(100%);
+        }
+</style>        
+</head>
+<body>
+    <h1 style= "text-align:center">Responsive Image Page</h1>
+<div class="outer-grid">
+<div class="inner-grid">
+<img class="m1"
+src="images/img10.jpeg">
+<img id="m2"
+src="images/img06.jpeg">
+<img class="'m3"
+src="images/img01.jpeg">
+</div>
+<div class="inner-grid">
+<img class="'m4"
+src="images/img10.jpeg">
+<img class="m5"
+src="images/img06.jpeg">
+<img class="m6"
+src="images/img01.jpeg">
+</div>
+<div class="inner-grid">
+<img class="m7"
+src="images/img10.jpeg">
+<img class="m8"
+src="images/img06.jpeg">
+<img class="m9"
+src="images/img01.jpeg">
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+body{
+    height: 100%;
+    width:100%
+}
+
+
+.footer{
+	display: flex;
+	justify-content: center;
+	height: 30vh;
+}
+
+a:hover {
+    background-color: rgb(244, 235, 235);
+  }
+   a:visited{
+      background-color: rgb(2, 8, 6);
+   }
+          header{
+            background-image :url('/images/VR2.jpeg');
+            height: 30vh; 
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+          animation: repeatit 2s linear 0s infinite alternate;
+          
+          }
+          @keyframes repeatit {
+          from {left: 0%;}
+          to {left: 40%;}
+      }
+  
+      .fa:hover {
+      opacity: 0.4;
+      }
+  footer .fa {
+    padding: 33px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin:20px 8px;
+    border-radius: 80%;  
+  }
+  
+  footer .fa-facebook {
+    background: #fff;
+    color: black;
+  }
+  
+  footer .fa-twitter {
+    background: #ffff;
+    color: black;
+  }
+  
+  footer .fa-google {
+    background: #fff;
+    color: black;
+  }
+  
+  footer .fa-linkedin {
+    background: #fff;
+    color:black;
+  }
+  
+  
+  /* NAVBAR STYLING STARTS */
+  
+  .navbar {
+  
+  display: flex;
+  
+  align-items: center;
+  
+  justify-content: space-between;
+  
+  padding: 20px;
+  
+  background-color: rgb(3, 12, 12);
+  
+  color: #fff;
+  
+  }
+  
+  .nav-links a {
+  
+  color: #fff;
+  
+  }
+  
+  /* NAVBAR MENU */
+  
+  .menu {
+  
+  display: flex;
+  
+  gap: 1em;
+  
+  font-size: 18px;
+  
+  }
+  
+  .menu li:hover {
+  
+  background-color: #f2f6f6;
+  
+  color:aliceblue;
+  
+  border-radius: 5px;
+  
+  transition: 0.3s ease;
+  
+  }
+  
+  .menu li {
+  
+  padding: 5px 14px;
+  
+  }
+  
+  /* APPLYING MEDIA QUERIES */
+  
+  @media (max-width: 768px) {
+  
+  .menu { 
+  
+  display:none;
+  
+  position: absolute;
+  
+  background-color:teal;
+  color:#fff;
+  
+  right: 0;
+  
+  left: 0;
+  
+  text-align: center;
+  
+  padding: 16px 0;
+  
+  }
+  
+  .menu li:hover {
+  
+  display: inline-block;
+  background-color:#eff4f4;
+  color:#efedf5;
+  transition: 0.3s ease;
+  }
+  
+  .menu li + li {
+  
+  margin-top: 12px;
+  }
+
+
+
+  
+  footer{
+          background-color:#040505;
+          text-align:center;
+          width: 100%;
+          height: fit-content;
+          margin-bottom: 0%;
+         }
+  
+  
+  .hamburger {
+  
+  display: block;
+  }
+  
+  
+
+
+  }
+  
