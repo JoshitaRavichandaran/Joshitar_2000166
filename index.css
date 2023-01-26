@@ -4,7 +4,7 @@ body{
 }
 
 
-.footer{
+footer{
 	display: flex;
 	justify-content: center;
 	height: 30vh;
@@ -82,7 +82,7 @@ a:hover {
   
   }
   
-  .nav-links a {
+  nav-links a {
   
   color: #fff;
   
