@@ -88,9 +88,9 @@ a:hover {
   
   }
   
-  /* NAVBAR MENU */
+ 
   
-  .menu {
+  menu {
   
   display: flex;
   
@@ -100,7 +100,7 @@ a:hover {
   
   }
   
-  .menu li:hover {
+  menu li:hover {
   
   background-color: #f2f6f6;
   
@@ -118,11 +118,11 @@ a:hover {
   
   }
   
-  /* APPLYING MEDIA QUERIES */
+ 
   
   @media (max-width: 768px) {
   
-  .menu { 
+  menu { 
   
   display:none;
   
@@ -141,7 +141,7 @@ a:hover {
   
   }
   
-  .menu li:hover {
+  menu li:hover {
   
   display: inline-block;
   background-color:#eff4f4;
@@ -149,7 +149,7 @@ a:hover {
   transition: 0.3s ease;
   }
   
-  .menu li + li {
+  menu li + li {
   
   margin-top: 12px;
   }
