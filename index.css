@@ -4,7 +4,7 @@ body{
 }
 
 
-footer{
+.footer{
 	display: flex;
 	justify-content: center;
 	height: 30vh;
@@ -17,7 +17,7 @@ a:hover {
       background-color: rgb(2, 8, 6);
    }
           header{
-            background-image :url('images/VR2.jpeg');
+            background-image :url('/images/VR2.jpeg');
             height: 30vh; 
             background-size: cover;
             background-repeat: no-repeat;
@@ -30,7 +30,7 @@ a:hover {
           to {left: 40%;}
       }
   
-      fa:hover {
+      .fa:hover {
       opacity: 0.4;
       }
   footer .fa {
@@ -64,9 +64,9 @@ a:hover {
   }
   
   
- 
+  /* NAVBAR STYLING STARTS */
   
-  nav navbar {
+  .navbar {
   
   display: flex;
   
@@ -76,21 +76,21 @@ a:hover {
   
   padding: 20px;
   
- background-color: #000;
+  background-color: #000;
   
   color: #fff;
   
   }
   
-  nav-links a {
+  .nav-links a {
   
   color: #fff;
   
   }
   
- 
+  /* NAVBAR MENU */
   
-  menu {
+  .menu {
   
   display: flex;
   
@@ -100,7 +100,7 @@ a:hover {
   
   }
   
-  menu li:hover {
+  .menu li:hover {
   
   background-color: #f2f6f6;
   
@@ -112,17 +112,17 @@ a:hover {
   
   }
   
-  menu li {
+  .menu li {
   
   padding: 5px 14px;
   
   }
   
- 
+  /* APPLYING MEDIA QUERIES */
   
   @media (max-width: 768px) {
   
-  menu { 
+  .menu { 
   
   display:none;
   
@@ -141,7 +141,7 @@ a:hover {
   
   }
   
-  menu li:hover {
+  .menu li:hover {
   
   display: inline-block;
   background-color:#eff4f4;
@@ -149,7 +149,7 @@ a:hover {
   transition: 0.3s ease;
   }
   
-  menu li + li {
+  .menu li + li {
   
   margin-top: 12px;
   }
@@ -170,9 +170,6 @@ a:hover {
   
   display: block;
   }
-  
-  
-
-
   }
   
+
