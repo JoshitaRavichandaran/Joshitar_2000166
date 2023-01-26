@@ -17,7 +17,7 @@ a:hover {
       background-color: rgb(2, 8, 6);
    }
           header{
-            background-image :url('/images/VR2.jpeg');
+            background-image :url('images/VR2.jpeg');
             height: 30vh; 
             background-size: cover;
             background-repeat: no-repeat;
