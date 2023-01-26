@@ -30,7 +30,7 @@ a:hover {
           to {left: 40%;}
       }
   
-      .fa:hover {
+      fa:hover {
       opacity: 0.4;
       }
   footer .fa {
@@ -112,7 +112,7 @@ a:hover {
   
   }
   
-  .menu li {
+  menu li {
   
   padding: 5px 14px;
   
